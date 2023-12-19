@@ -95,7 +95,7 @@ export async function deleteContact(id: string) {
   fakeContacts.destroy(id);
 }
 
-const data = const membersData = [
+const data = [
   {
     first: "Akash",
     last: "Gupta",
