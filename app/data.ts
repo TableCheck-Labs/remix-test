@@ -95,103 +95,119 @@ export async function deleteContact(id: string) {
   fakeContacts.destroy(id);
 }
 
-const data = const membersData = [
+const data = [
   {
     first: "Akash",
     last: "Gupta",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
-    twitter: "@akashgupta"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    twitter: "@akashgupta",
   },
   {
     first: "Alexandr",
     last: "Shostyr",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
-    twitter: "@alexandrshostyr"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    twitter: "@alexandrshostyr",
   },
   {
     first: "Ann",
     last: "Rakhlina",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
-    twitter: "@annrakhlina"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    twitter: "@annrakhlina",
   },
   {
     first: "Clement",
     last: "Hurel",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
-    twitter: "@clementhurel"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    twitter: "@clementhurel",
   },
   {
     first: "Daniel",
     last: "Lizik",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
-    twitter: "@daniellizik"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+    twitter: "@daniellizik",
   },
   {
     first: "Donald",
     last: "Cribillo",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
-    twitter: "@donaldcribillo"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+    twitter: "@donaldcribillo",
   },
   {
     first: "Elijah",
     last: "Lee",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
-    twitter: "@elijahlee"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
+    twitter: "@elijahlee",
   },
   {
     first: "Frederic",
     last: "Wojcikowski",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
-    twitter: "@fredericwojcikowski"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
+    twitter: "@fredericwojcikowski",
   },
   {
     first: "Kimberly",
     last: "Baldauf",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png",
-    twitter: "@kimberlybaldauf"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/161.png",
+    twitter: "@kimberlybaldauf",
   },
   {
     first: "Neilson",
     last: "Gardose",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
-    twitter: "@neilsongardose"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
+    twitter: "@neilsongardose",
   },
   {
     first: "Simeon",
     last: "Cheeseman",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png",
-    twitter: "@simeoncheeseman"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/167.png",
+    twitter: "@simeoncheeseman",
   },
   {
     first: "Simon",
     last: "Bystrom",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png",
-    twitter: "@simonbystrom"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/170.png",
+    twitter: "@simonbystrom",
   },
   {
     first: "Terrence",
     last: "Chu",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
-    twitter: "@terrencechu"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
+    twitter: "@terrencechu",
   },
   {
     first: "Tirso",
     last: "Pascual",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
-    twitter: "@tirsopascual"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
+    twitter: "@tirsopascual",
   },
   {
     first: "Wahid",
     last: "Farid",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png",
-    twitter: "@wahidfarid"
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/179.png",
+    twitter: "@wahidfarid",
   },
   {
     first: "Wei-Han",
     last: "Chong",
-    avatar: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png",
-    twitter: "@weihanchong"
-  }
+    avatar:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png",
+    twitter: "@weihanchong",
+  },
 ].forEach((contact) => {
   fakeContacts.create({
     ...contact,
