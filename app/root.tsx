@@ -13,20 +13,12 @@ import {
   useSubmit,
 } from "@remix-run/react";
 
-import {
-  json,
-  redirect,
-  type LinksFunction,
-  LoaderFunctionArgs,
-} from "@remix-run/node";
+import { json, redirect, LoaderFunctionArgs } from "@remix-run/node";
 
-import appStylesHref from "./app.css";
+import "./app.css";
 import { createEmptyContact, getContacts } from "./data";
 import { useEffect } from "react";
 
-export const links: LinksFunction = () => [
-  { rel: "stylesheet", href: appStylesHref },
-];
 export const loader = async ({ request }: LoaderFunctionArgs) => {
   const url = new URL(request.url);
   const q = url.searchParams.get("q");
